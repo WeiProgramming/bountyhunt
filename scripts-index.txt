@@ -1,0 +1,21 @@
+Get all files with certain .extensions run it against a wordlist which I create, 
+
+assume all urls are .extensions through previous recon tools
+
+have it also able to accept a single file if it has certain extensions
+
+make it accept certain extensions so the output is in ".ext" format
+
+TODO: 
+create wordlists - js and php created
+create the script - script works but need to make it capable of accept flags (single file or filelist) 
+
+curl https://shop.lululemon.com/static/gi/scripts/gi-cpra.js | grep --color=always "return" > test.txt
+
+Test code for wordlist file scan (.php)
+cat "Test/Vulnerable.php" | grep --color=always -f ~/Desktop/bountyhunt/wordlists/Extensions/PHP/php-all.txt | tee "test_result.txt" 
+
+
+strips out the functions test(function-arg) -> test(
+cat wordlists/Extensions/PHP/php-all.txt | sed 's/).*//g' 
+

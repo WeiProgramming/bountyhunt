@@ -5,7 +5,7 @@ Get all ALIVE subdomains (keeps urls with status code 200,301,302,...)
 httpx-toolkit -l subdomain-file.txt -mc 200,301,302,303,307,308,401,403,404,405,500,502,503 -fc 400,0,408,502,503,504 -o alive_subdomains.txt
 
 (QUICK) Find subdomains/directories/file extensions in web app Katana
-katana -list {urls} -kf all -pss waybackarchive,commoncrawl,alienvault -o katana_results.txt -silent
+katana -list {urls} -kf all -pss waybackarchive,commoncrawl,alienvault -o katana_results.txt -silent -c 5 -p 5 -rl 100
 
 (SLOW) Scan ALIVE subdomains for directories and file ext and shows redirects (warning takes forever and need to kill the process manually, use just 1 domain) 
 dirsearch -l {alive_subdomains.txt} -w {/usr/share/wordlists/dirbuster/directory-list-1.0.txt} -e php,js,html,css,htm,asp,aspx,jsp,cgi,pl,py,rb,bak,old,orig,backup.conf,ini,env,config,sql,db,sqlite,log,htaccess,htpasswd,git,svn,yaml,yml,cry,pem,key,json,xml,pdf,txt -f -O --deep-recursive --redirects-history -o directory_results.txt
