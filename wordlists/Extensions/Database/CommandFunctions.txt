@@ -1,0 +1,3 @@
+truncate
+xp_cmdshell
+sp_executesql

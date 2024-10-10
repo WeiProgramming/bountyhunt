@@ -1,6 +1,3 @@
 https://shop.lululemon.com/static/gi/scripts/gi-cpra.js
 https://www.upwork.com/php/landing/main/login.php
-https://shop.lululemon.com/static/gi/scripts/gi-cpra.js
-https://www.upwork.com/php/landing/main/login.php
-https://shop.lululemon.com/static/gi/scripts/gi-cpra.js
-https://www.upwork.com/php/landing/main/login.php
+https://view.e.lululemon.com/Error.aspx

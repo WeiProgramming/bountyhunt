@@ -1,0 +1,16 @@
+session_token
+session_id
+session_key
+user_activity
+user_logs
+login_attempts
+login_success
+login_failure
+session_token
+session_id
+session_key
+user_activity
+user_logs
+login_attempts
+login_success
+login_failure

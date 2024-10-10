@@ -1,4 +1,0 @@
-user.id
-user_id
-account_id
-order_id

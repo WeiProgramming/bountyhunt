@@ -1,0 +1,12 @@
+<appSettings>
+<connectionStrings>
+<system.web>
+<customErrors>
+<authentication mode>
+<authorization>
+<compilation debug="true">
+<machineKey>
+<identity impersonate="true">
+<sessionState>
+<httpRuntime>
+<pages enableEventValidation="false">

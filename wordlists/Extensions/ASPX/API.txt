@@ -1,0 +1,14 @@
+HttpClient
+HttpWebRequest
+HttpWebResponse
+WebRequest
+WebResponse
+Request.Headers
+Response.Headers
+Request.QueryString
+Request.Form
+Response.Cookies
+Request.Cookies
+Request.UserAgent
+Request.ServerVariables
+WebMethod

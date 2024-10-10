@@ -1,0 +1,4 @@
+Response.Write("
+Debug.Print
+On Error GoTo
+Response.WriteErr

@@ -1,0 +1,9 @@
+load_file
+outfile
+infile
+xp_cmdshell
+sp_executesql
+openrowset
+bulk insert
+bcp
+into outfile

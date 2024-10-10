@@ -1,0 +1,9 @@
+"SELECT * FROM"
+"INSERT INTO"
+"UPDATE table SET"
+"DELETE FROM"
+WHERE clause
+Parameterized queries
+CommandText
+ExecuteReader
+ExecuteNonQuery

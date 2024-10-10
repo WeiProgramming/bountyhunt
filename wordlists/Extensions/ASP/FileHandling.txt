@@ -1,0 +1,8 @@
+FileSystemObject
+CreateObject("Scripting.
+fso.CreateTextFile
+fso.OpenTextFile
+fso.ReadLine
+fso.WriteLine
+fso.DeleteFile
+Set fso = Server.CreateObject("Scripting.

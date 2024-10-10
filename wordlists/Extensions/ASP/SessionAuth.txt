@@ -1,0 +1,12 @@
+Session("username")
+Session("user_id")
+Session("auth")
+Session.SessionID
+Session.Timeout
+Session("is_admin")
+Session("role")
+Request("username")
+Request("password")
+Request.Cookies
+Request.QueryString
+Response.Cookies

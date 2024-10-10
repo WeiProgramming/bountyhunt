@@ -1,0 +1,50 @@
+select * from
+union select
+information_schema
+version(
+database(
+user(
+current_user
+schema_name
+table_name
+column_name
+exec
+execute
+sqlmap
+sql_injection
+select * from
+union select
+information_schema
+version(
+database(
+user(
+current_user
+schema_name
+table_name
+column_name
+sqlmap
+sql_injection
+select * from
+union select
+information_schema
+version(
+database(
+user(
+current_user
+schema_name
+table_name
+column_name
+sqlmap
+sql_injection
+select * from
+union select
+information_schema
+version(
+database(
+user(
+current_user
+schema_name
+table_name
+column_name
+sqlmap
+sql_injection

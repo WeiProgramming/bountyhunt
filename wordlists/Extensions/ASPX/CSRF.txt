@@ -1,0 +1,6 @@
+AntiForgeryToken
+SessionID
+Request.Cookies["
+__VIEWSTATE
+ValidateRequest="false"
+AntiForgery.Validate

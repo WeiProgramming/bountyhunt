@@ -1,0 +1,7 @@
+Set Mail = Server.CreateObject("CDO.Message")
+Mail.Send
+Mail.To
+Mail.From
+Mail.Subject
+Mail.Body
+Mail.Configuration.Fields

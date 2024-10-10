@@ -1,0 +1,14 @@
+SqlCommand
+SqlConnection
+SqlDataAdapter
+SqlDataReader
+ExecuteReader
+ExecuteNonQuery
+ExecuteScalar
+Entity Framework
+DbContext
+SaveChanges(
+Add(
+Remove(
+LINQ
+var query = from

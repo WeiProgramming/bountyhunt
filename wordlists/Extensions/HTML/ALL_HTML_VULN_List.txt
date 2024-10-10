@@ -1,0 +1,23 @@
+<form action="http://
+<form method="GET">
+<input type="password">
+<input type="hidden" value="
+<script>
+onload=
+onclick=
+onmouseover=
+<img src="javascript:"
+<iframe src=>
+<style>
+style="background:url('javascript:')"
+document.write(
+innerHTML =
+<a href="http://
+<img src="http://
+<link href="http://
+<meta name="author" content="
+<meta name="generator" content="
+<applet>
+<embed>
+<bgsound>
+<marquee>

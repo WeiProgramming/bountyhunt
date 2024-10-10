@@ -1,14 +1,28 @@
 Get all files with certain .extensions run it against a wordlist which I create, 
 
-assume all urls are .extensions through previous recon tools
+assume all urls come in a batch of urls for the scanner to scan (ie, .php.js.xml.html)
 
-have it also able to accept a single file if it has certain extensions
-
-make it accept certain extensions so the output is in ".ext" format
+Current build - 
+allows for a url file list of any kind of urls and scans it getting the files with a certain extension and 
+then looking for vulnerable code outputting to formatted directories 
 
 TODO: 
-create wordlists - js and php created
-create the script - script works but need to make it capable of accept flags (single file or filelist) 
+create wordlists - for file extensions and seperate them by directories of vulnerabilities - done
+/wordlists/Extensions/ext_name/Vulnerabilities/vuln_type
+
+condense the wordlist files of config wordlist and sort them by uniq words
+
+we're gonne add list as they go
+
+maybe add a file called unsupported so that way we know what to try to add
+
+it would output results/ext_name/vuln_type
+
+- issue is i'll have duplicate urls with color coordination in different locations
+
+create the --help text
+
+create the results file seperating all into the respective vulnerabilities
 
 curl https://shop.lululemon.com/static/gi/scripts/gi-cpra.js | grep --color=always "return" > test.txt
 
@@ -19,3 +33,6 @@ cat "Test/Vulnerable.php" | grep --color=always -f ~/Desktop/bountyhunt/wordlist
 strips out the functions test(function-arg) -> test(
 cat wordlists/Extensions/PHP/php-all.txt | sed 's/).*//g' 
 
+
+gets urls with .ext
+cat katana_results.txt | grep -P 'https?:\/\/[^\s\/]+\/[^\s\/]+\.[a-zA-Z0-9]{2,}'

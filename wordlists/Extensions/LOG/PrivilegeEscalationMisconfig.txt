@@ -1,0 +1,16 @@
+create_user
+create_role
+alter_user
+alter_role
+grant_privileges
+drop_user
+drop_role
+sysadmin
+create_user
+create_role
+alter_user
+alter_role
+grant_privileges
+drop_user
+drop_role
+sysadmin

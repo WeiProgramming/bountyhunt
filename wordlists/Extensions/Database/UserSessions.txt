@@ -1,0 +1,12 @@
+session_token
+session_id
+session_key
+user_activity
+user_logs
+login_attempts
+session_token
+session_id
+session_key
+user_activity
+user_logs
+login_attempts

@@ -1,0 +1,9 @@
+Set conn = Server.CreateObject("
+conn.ConnectionString
+conn.Open
+conn.Execute
+rs("
+rs.Open
+Set rs = Server.CreateObject("
+Command.Execute
+Server.CreateObject("

@@ -1,0 +1,14 @@
+Session["username"]
+Session["user_id"]
+Session["auth"]
+Session.SessionID
+Session.Timeout
+Session["is_admin"]
+Session["role"]
+ViewState
+EnableViewState
+ViewStateUserKey
+EnableSessionState
+Session.Abandon
+EnableViewStateMac
+Session["user_token"]

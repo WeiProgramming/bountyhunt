@@ -1,0 +1,3 @@
+"SELECT * FROM users WHERE username = '" 
+"INSERT INTO table 
+"UPDATE users SET password =

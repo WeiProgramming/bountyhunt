@@ -1,0 +1,5 @@
+Application("variable_name")
+Application.Lock
+Application.Unlock
+Application("session_var")
+Session.Abandon
