@@ -1,0 +1,13 @@
+move_uploaded_file
+$_FILES
+$_POST
+$_GET
+finfo_file
+mime_content_type
+exif_imagetype
+file_put_contents
+copy
+rename
+unlink
+chmod
+chown

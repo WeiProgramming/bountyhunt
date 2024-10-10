@@ -1,0 +1,17 @@
+mysql_query
+mysqli_query
+pg_query
+sqlite_query
+query
+prepare
+bind_param
+bindValue
+PDO::query
+PDO::prepare
+PDO::exec
+concat
+LIKE
+SELECT
+INSERT
+UPDATE
+DELETE

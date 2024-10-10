@@ -1,0 +1,8 @@
+JSON.parse
+JSON.stringify
+eval
+Function
+new Function(
+Object.keys
+Object.values
+Buffer.from

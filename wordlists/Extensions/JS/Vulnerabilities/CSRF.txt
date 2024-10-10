@@ -1,0 +1,7 @@
+withCredentials
+fetch
+XMLHttpRequest
+document.forms
+form.action
+form.method
+form.submit(

@@ -1,0 +1,12 @@
+echo
+print
+printf
+sprintf
+print_r
+var_dump
+die
+exit
+json_encode
+htmlspecialchars
+htmlentities
+filter_var

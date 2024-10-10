@@ -1,0 +1,6 @@
+child_process.exec(
+child_process.spawn(
+child_process.execFile(
+child_process.fork(
+process.env
+os.system

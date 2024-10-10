@@ -1,0 +1,5 @@
+unserialize
+serialize
+__wakeup
+__destruct
+__sleep

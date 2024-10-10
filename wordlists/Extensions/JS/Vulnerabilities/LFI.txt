@@ -1,0 +1,10 @@
+fs.readFile
+fs.readFileSync
+fs.writeFile
+fs.writeFileSync
+fs.appendFile
+path.join
+require()
+require.resolve()
+child_process.exec()
+child_process.execFile()

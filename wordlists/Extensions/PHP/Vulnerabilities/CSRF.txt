@@ -1,0 +1,7 @@
+$_POST
+$_GET
+csrf_token
+generate_csrf_token
+validate_csrf_token
+setcookie
+header('Set-Cookie')

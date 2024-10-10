@@ -1,0 +1,6 @@
+localStorage
+sessionStorage
+document.cookie
+indexedDB
+window.name
+openDatabase

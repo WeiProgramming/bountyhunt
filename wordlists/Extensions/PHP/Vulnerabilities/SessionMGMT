@@ -1,0 +1,7 @@
+$_SESSION
+session_start
+session_id
+session_regenerate_id
+setcookie
+get_cookie
+header('Set-Cookie')
