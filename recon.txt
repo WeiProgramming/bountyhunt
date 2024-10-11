@@ -1,3 +1,9 @@
+WORDLIST - generate a custom wordlist for the target (used for fuzzing and directory traversal)
+cewl -d 5 -o -w cewl_wordlist.txt -v $url
+
+Fuzz for hidden directories 
+ffuf -w cewl_wordlist.txt -u https://mankind.co.uk/FUZZ -recursion -recursion-depth 3 -v -mc 200,301,302,303,307,308,401,403,404,405,500,502,503 -o ffuf_custom_wordlist_results.txt -of json
+
 Get all subdomains (checks all available list sources crtsh, github etc)
 subfinder -d domain.com -all -o subdomains.txt 
 
@@ -16,3 +22,5 @@ nuclei -l {alive_subdomains1.txt} -tags cve, exposure, xss, wp-plugin, osint, lf
 
 Using my custom script to find potential vulnerable files:
 ~/Desktop/bountyhunt/ext-scanner.sh -l katana_results.txt -w ~/Desktop/bountyhunt/wordlists/Extensions/ 
+
+
